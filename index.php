@@ -20,7 +20,7 @@
 	$ctrl->eleanore($url[2]); // OK
 	echo "<br>"; 
 	$url[1]; // OK
-	$ctrl->$url[1] ($url[2]); // ERROR FATAL !!
+	$ctrl->$url[1]($url[2]); // ERROR FATAL !!
 
 	?>
 
