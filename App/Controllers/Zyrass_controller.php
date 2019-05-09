@@ -1,9 +1,9 @@
 <?php 
 
 /**
- * Guillon = Controller enfant de Dcontroller
+ * Zyrass = Controller enfant de Dcontroller
  */
-class Guillon extends Dcontroller {
+class Zyrass extends Dcontroller {
 	
 	public function __construct( )
 	{

@@ -16,37 +16,12 @@
 	var_dump($url);
 	echo '</pre>';
 
-	$ctrl = new $url[0]();
-	echo "<br>";
-	$ctrl->eleanore($url[2]);
-	echo "<br>";
-	$url[1];
-	$ctrl->$url[1] ($url[2]);
+	$ctrl = new $url[0](); // OK
+	$ctrl->eleanore($url[2]); // OK
+	echo "<br>"; 
+	$url[1]; // OK
+	$ctrl->$url[1] ($url[2]); // ERROR FATAL !!
 
-/*
-
-
-	$controller = new $url[0]();
-	$controller->alain() ."\n";
-
-	echo '<pre>';
-	var_dump($url);
-	echo '</pre>';
-
-	echo $url[1]; // OK 
-	echo $controller->$url[1](); // ERROR : Array to string conversion....
-
-
-	echo $controller = $url[0] . "\n";
-	echo $method = $url[1] . "\n";
-	echo $paramettre = $url[2] . "\n";
-
-
-	echo '<pre>';
-	print_r($url);
-	echo '</pre>';
-
-	*/
 	?>
 
 <?php include 'inc/footer.php' ?>

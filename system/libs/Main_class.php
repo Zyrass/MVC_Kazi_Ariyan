@@ -8,7 +8,7 @@ class Main
 	
 	function __construct( )
 	{
-		echo "Ce text est généré grâce à notre classe Main";
+		echo "This text is generated using our Main class";
 	}
 
 } // End Class Main

@@ -7,7 +7,7 @@ class Dcontroller {
 	
 	public function __construct(  )
 	{
-		echo 'Je suis Dcontroller appelé dans une de mes classes enfants.';
+		echo 'I am a Dcontroller called in one of my child classes.';
 	}
 
 }
