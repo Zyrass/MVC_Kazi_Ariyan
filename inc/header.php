@@ -31,6 +31,25 @@ input[type="submit"]{cursor: pointer}
 .footeroption{height:90px;background:#77d25b;overflow:hidden;padding-top:10px;}
 .footerone {background: #669e55;border-radius: 5px;float: left;font-size:18px;line-height:23px;margin-left: 90px;padding:6px 10px;text-align:center;text-shadow: 1px 0 2px #fff;width:900px;overflow: hidden;}
 .footerone p{margin:0;}
+
+.error {
+	background-color: red;
+	color: #eee;
+	padding: 5px;
+}
+.success {
+	background-color: lightgreen;
+	padding: 5px;
+}
+.info {
+	background-color: lightblue;
+	padding: 5px;
+}
+pre, .debug {
+	background-color: #333;
+	color: #eee;
+	padding: 10px;
+}
 </style>
 </head>
 <body>

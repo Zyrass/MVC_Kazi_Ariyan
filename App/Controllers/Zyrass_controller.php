@@ -10,8 +10,8 @@ class Zyrass extends Dcontroller {
 		// parent::__construct( );
 	}
 
-	public function eleanore($param) {
-		echo  "Éléanore from method \n" . $param;
+	public function kazi($param) {
+		echo  "<span class='success'>Kazi from method " . $param . '</span>';
 	}
 	
 }
